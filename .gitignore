@@ -1,0 +1,9 @@
+.terraform
+.terraform.*
+*.tfstate
+*.tfplan
+*.json
+*.swp
+terraformPrivatekey
+*.pub
+!*.tf
