@@ -8,4 +8,6 @@
 terraformPrivatekey
 *.pub
 !*.tf
+variables.tf
+
 
