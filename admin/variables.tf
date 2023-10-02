@@ -1,9 +1,9 @@
 variable "access_key" {
-  default = "AKIAWS7E3AEOGJMDS6LL"
+  description = "no default"
 }
 
 variable "secret_key" {
-  default = "40DYqg6CZkLURHRuZCv30HejxdtHC9eEN+hu0HZw"
+  description = "no default"
 }
 
 variable "vault_addr" {
@@ -11,5 +11,5 @@ variable "vault_addr" {
 }
 
 variable "vault_token" {
-  default = "hvs.jOaCJCb6NKikAjUMHrxy2yBM"
+ description = "no default"
 }
