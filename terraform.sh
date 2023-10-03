@@ -55,7 +55,7 @@ terraform fmt -recursive -diff -check
 terraform init
 terraform validate
 echo $(aws sts get-caller-identity)
-terraform plan -out=${TF_PLAN}
+terraform plan -var-file="secrets.tfvars" -out=${TF_PLAN} 
 terraform show -json ${TF_PLAN} >${TF_PLAN_JSON}
 checkov -f ${TF_PLAN_JSON}
 sleep 5

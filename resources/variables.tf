@@ -3,7 +3,7 @@ variable "vault_addr" {
 }
 
 variable "vault_token" {
-  description = "no default"
+  description = "Vault Token"
 }
 
 variable "region" {
