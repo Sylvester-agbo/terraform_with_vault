@@ -10,8 +10,8 @@ sleep 5
 terraform fmt -recursive
 terraform init
 terraform validate
-terraform plan
-terraform apply -auto-approve
+terraform plan -var-file="secrets.tfvars"
+terraform apply -var-file="secrets.tfvars" -auto-approve
 ###########################################################
 
 cd ../resources
